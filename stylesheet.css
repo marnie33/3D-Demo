@@ -1,0 +1,55 @@
+#parallax {
+   position:relative; overflow:hidden; width:700px; height:320px;
+   background-image:url('skybg.png');
+}
+.parallax-viewport {
+    position: relative; 
+    overflow: hidden;
+}
+.parallax-layer {
+    position: absolute;
+}
+
+#frankenclouds {
+    opacity: 0.9;
+}
+
+.header {
+    margin-top: 50px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    background-color: rgba(0, 153, 255, .75);
+    padding: 10px 0px 10px 0px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.footer {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    background-color: rgba(0, 153, 255, .75);
+    margin-bottom: 50px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 18px
+}
+#jumbo {
+    background-color: transparent;
+}
+
+body {
+    background-image: radial-gradient(aliceblue, azure, dodgerblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#viewport {
+    width: 700px;
+    height: 320px;
+    box-shadow: 10px 5px 20px 0px lightgrey;
+}
+
+span {
+    font-size: 18px;
+}
