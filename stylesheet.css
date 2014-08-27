@@ -1,6 +1,7 @@
 #parallax {
-   position:relative; overflow:hidden; width:700px; height:320px;
-   background-image:url('skybg.png');
+   position:relative; overflow:hidden; width:510px; height:380px;
+   background-image:url('http://upload.wikimedia.org/wikipedia/commons/8/81/Sky_over_Washington_Monument.JPG');
+    background-size: 100%;
 }
 .parallax-viewport {
     position: relative; 
@@ -8,10 +9,6 @@
 }
 .parallax-layer {
     position: absolute;
-}
-
-#frankenclouds {
-    opacity: 0.9;
 }
 
 .header {
@@ -31,6 +28,7 @@
     border-top: 2px solid black;
     background-color: rgba(0, 153, 255, .75);
     margin-bottom: 50px;
+    margin-top: 50px;
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
     font-size: 18px
@@ -45,11 +43,14 @@ body {
     background-attachment: fixed;
 }
 #viewport {
-    width: 700px;
-    height: 320px;
+    width: 510px;
+    height: 380px;
     box-shadow: 10px 5px 20px 0px lightgrey;
 }
 
 span {
     font-size: 18px;
+}
+#clouds {
+    opacity: .9;
 }
