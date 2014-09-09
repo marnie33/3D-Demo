@@ -14,6 +14,4 @@ bootstrap.js
 
 (outside of what is provided)
 
-I am having difficulties figuring out how to upload the necessary image files for this to work, any advice would be appreciated. My Git level is novice, so be gentle!
-
 Thanks!
